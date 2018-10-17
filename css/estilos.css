@@ -206,6 +206,9 @@ footer .redes .github:hover{
  	.main .trabajos .contenedor-trabajos .trabajo{
 		width: 46%;
 	}
+	.main .acerca-de .texto p {
+		font-size: 22px;
+	}
 }
 @media screen and (max-width: 500px){
 	header .contenedor-texto .texto .nombre{
@@ -217,5 +220,8 @@ footer .redes .github:hover{
 	footer .redes .contenedor{
 		flex-wrap: wrap;
 		padding: 20px 0;
+	}
+	.main .acerca-de .texto p{
+		font-size: 18px;
 	}
 }
